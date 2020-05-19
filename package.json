@@ -4,6 +4,7 @@
   "main": "index.js",
   "repository": "https://github.com/DanThomp507/Realtime-Weather.git",
   "author": "Daniel Thompson <DanThomp507@gmail.com>",
+  "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2"
   },
