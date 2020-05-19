@@ -6,7 +6,8 @@
   "author": "Daniel Thompson <DanThomp507@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.19.2",
+    "yargs": "^15.3.1"
   },
   "scripts": {
     "start": "node index.js"
