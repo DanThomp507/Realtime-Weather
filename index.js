@@ -10,7 +10,7 @@ let fetchData = async (location) => {
     // conversion for temperature in Fahrenheit
     let tempinF = temp * 9 / 5 + 32
 
-    return `The current weather is ${temp}°C or ${tempinF.toFixed(2)}°F`
+    return `The current weather in ${location} is ${temp}°C or ${tempinF.toFixed(2)}°F`
 
   } catch (e) {
     return `No Weather info for this location`
