@@ -4,13 +4,13 @@ const argv = require('yargs')
     location: {
       alias: '-l',
       describe: 'Please enter a location',
-      type: 'array',
+      type: 'string',
       nargs: 1,
       demand: true
     }
   })
   .help()
-  .argv()
+  .argv
 
 module.exports = {
   argv

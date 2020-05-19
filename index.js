@@ -1,12 +1,12 @@
 const weather = require('./helpers/weather')
+const argv = require('./config').argv
 
 
-let fetchData = async () => {
+let fetchData = async (location) => {
 
   try {
 
-    let temp = await weather.fetchWeatherData()
-    console.log(temp)
+    let temp = await weather.fetchWeatherData(location)
     // conversion for temperature in Fahrenheit
     let tempinF = temp * 9 / 5 + 32
 
@@ -17,6 +17,6 @@ let fetchData = async () => {
   }
 }
 
-fetchData()
+fetchData(argv.location)
   .then(message => console.log(message))
   .catch(err => console.log(err))
