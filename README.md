@@ -1,6 +1,6 @@
 # Realtime - Weather
 
-Given an array of inputs (location name, postal code), log the current time and weather for those locations.
+Given a string input(city / state / region name, country) log the current time and weather for those locations.
 
 ## Installation Instructions
 
