@@ -7,7 +7,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
-    "moment": "^2.25.3",
+    "moment": "^2.29.2",
     "moment-timezone": "^0.5.31",
     "yargs": "^15.3.1"
   },
